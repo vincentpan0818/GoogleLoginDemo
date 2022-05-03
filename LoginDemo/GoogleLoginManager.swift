@@ -11,7 +11,7 @@ import GoogleSignIn
 class GoogleLoginManager {
     static let shared = GoogleLoginManager()
     
-    private let signInConfig = GIDConfiguration.init(clientID: "41115470188-m8qli29g2dm4v44uetk8p1ur4nv7f9qa.apps.googleusercontent.com")
+    private let signInConfig = GIDConfiguration.init(clientID: "網站申請的clientID")
     
     //call in AppDelegate didFinishLaunchingWithOptions
     func delegateInit(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) {
